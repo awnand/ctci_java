@@ -4,6 +4,7 @@ import java.util.HashSet;
 
 public class Prob8 {
 
+    // This method takes O(N) space and O(N) time, where N is the size of the Linked List.
     public static Node findBeginning(Node head) {
         HashSet<Node> seenNodes = new HashSet<>();
         while (head != null) {
@@ -17,7 +18,27 @@ public class Prob8 {
     }
 
     public static Node findBeginning2(Node head) {
-        return null;
+        Node slowPointer = head;
+        Node fastPointer = head;
+
+        while (fastPointer != null && fastPointer.next != null) {
+            slowPointer = slowPointer.next;
+            fastPointer = fastPointer.next.next;
+            if (slowPointer == fastPointer) {
+                break;
+            }
+        }
+
+        if (fastPointer == null || fastPointer.next == null) {
+            return null;
+        }
+
+        slowPointer = head;
+        while (slowPointer != fastPointer) {
+            fastPointer = fastPointer.next;
+            slowPointer = slowPointer.next;
+        }
+        return fastPointer;
     }
 
     public static void printLoop(Node head) {
@@ -39,6 +60,14 @@ public class Prob8 {
         System.out.println("-----------------------");
     }
 
+    public static void findBeginning2AndPrint(Node head) {
+        System.out.println("Full Corrupted List:");
+        printLoop(head);
+        System.out.println("Beginning of Loop:");
+        printLoop(findBeginning2(head));
+        System.out.println("-----------------------");
+    }
+
     public static void main(String[] args) {
         Node n1 = LinkedListTool.constructLinkedListOfSize(5);
         Node cursor = n1;
@@ -47,6 +76,9 @@ public class Prob8 {
         }
         cursor.next = n1.next.next;
 
+        // Expected 3, 4, 5, 3
         findBeginningAndPrint(n1);
+        // Expected 3, 4, 5, 3
+        findBeginning2AndPrint(n1);
     }
 }
