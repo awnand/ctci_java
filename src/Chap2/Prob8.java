@@ -17,6 +17,7 @@ public class Prob8 {
         return null;
     }
 
+    // This method takes O(1) space and O(N) time, where N is the size of the linked list.
     public static Node findBeginning2(Node head) {
         Node slowPointer = head;
         Node fastPointer = head;
