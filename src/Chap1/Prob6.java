@@ -1,6 +1,6 @@
 package Chap1;
 
-public class Prob1_6 {
+public class Prob6 {
 
     public static String compress(String str) {
         if (str.equals("")) {

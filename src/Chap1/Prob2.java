@@ -1,6 +1,6 @@
 package Chap1;
 
-public class Prob1_2 {
+public class Prob2 {
 
     // Linear time solution with no data structures.
     public static boolean isPermutation(String str1, String str2) {

@@ -1,6 +1,6 @@
 package Chap1;
 
-public class Prob1_9 {
+public class Prob9 {
 
     public static boolean isRotation(String str1, String str2) {
         int length = str1.length();

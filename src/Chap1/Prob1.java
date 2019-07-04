@@ -2,7 +2,7 @@ package Chap1;
 
 import java.util.HashSet;
 
-public class Prob1_1 {
+public class Prob1 {
     // Simple solution leveraging a set.
     public static boolean isAllUnique(String s) {
         HashSet<Character> charSet = new HashSet<>();

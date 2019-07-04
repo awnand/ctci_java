@@ -1,7 +1,7 @@
 package Chap1;
 import static Chap1.PrinterTool.printMatrix;
 
-public class Prob1_7 {
+public class Prob7 {
 
     public static void rotate(int[][] matrix) {
         int lower = 0;

@@ -1,6 +1,6 @@
 package Chap1;
 
-public class Prob1_3 {
+public class Prob3 {
     public static void urlify(char[] strChars, int trueLength) {
         int spaceCounts = 0;
         for (int i = 0; i < trueLength; i++) {

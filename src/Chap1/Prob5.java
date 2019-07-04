@@ -1,6 +1,6 @@
 package Chap1;
 
-public class Prob1_5 {
+public class Prob5 {
 
     public static boolean isOneEditAway(String str1, String str2) {
         if (str1.equals(str2)) {

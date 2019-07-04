@@ -2,7 +2,7 @@ package Chap1;
 
 import java.security.cert.TrustAnchor;
 
-public class Prob1_4 {
+public class Prob4 {
 
     public static boolean isPalindronePermutation(String str) {
         str = str.toLowerCase();

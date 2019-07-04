@@ -5,7 +5,7 @@ import java.util.HashSet;
 
 import static Chap1.PrinterTool.printMatrix;
 
-public class Prob1_8 {
+public class Prob8 {
 
     public static void zerofy(int[][] matrix) {
         HashSet<Integer> rows = new HashSet<>();
