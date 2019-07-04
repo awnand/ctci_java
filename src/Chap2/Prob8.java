@@ -17,7 +17,7 @@ public class Prob8 {
     }
 
     public static Node findBeginning2(Node head) {
-        
+        return null;
     }
 
     public static void printLoop(Node head) {
