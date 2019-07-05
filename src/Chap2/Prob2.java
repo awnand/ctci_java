@@ -1,7 +1,12 @@
 package Chap2;
 
+// Contains methods that serve the purpose of finding the K-th to last element in a Linked List.
 public class Prob2 {
 
+    /* This method takes O(1) space and O(N) time. We start by taking the Node pointer fast and
+    *  moving it k elements up if possible.  Now slow and fast are exactly k-steps apart.  Then
+    *  we progress slow and fast together until fast reaches the end of the Linked List.  At this
+    *  point, slow will point to the k-th to last element. */
     public static int findKthtoLast(Node head, int k) {
         Node slow = head;
         Node fast = head;

@@ -2,9 +2,12 @@ package Chap2;
 
 import java.util.HashSet;
 
+/* Contains static methods that serve the purpose of removing duplicated integers
+*  from a Linked List. */
 public class Prob1 {
 
-    //
+    /* This method takes O(1) space and O(N^2) time. For every node, we check the rest of the Linked
+    *  List for matching data values and remove them. */
     public static Node removeDups(Node head) {
         Node n = head;
         while (n != null) {
@@ -14,6 +17,9 @@ public class Prob1 {
         return head;
     }
 
+    /* This method takes O(N) space due to the seenData set and O(N) time because we only need to
+    *  complete a single pass. Simply pass through the Linked List and whenever you run into data
+    *  that you have seen before, remove the Node from the Linked List. */
     public static Node removeDups2(Node head) {
         HashSet<Integer> seenData = new HashSet<>();
         Node n = head;

@@ -1,13 +1,22 @@
 package Chap2;
 
+/* Contains methods which serve the purpose of partitioning a Linked List around a value x, such
+*  that all nodes less than x come before all nodes greater than or equal to x. */
 public class Prob4 {
 
+    /* This method takes O(N) space and O(N) time. We essentially build two new Linked Lists. Left
+    *  represents everything less than x, while right represents everything larger or equal too.
+    *  After we're done building the two lists, we just connect them together and we have a
+    *  partitioned Linked List. */
     public static Node partition(Node head, int x) {
         Node left = null;
         Node right = null;
 
+        // We go through our Linked List in a single pass.
         Node cursor = head;
         while (cursor != null) {
+            /* Depending on the value of the current Node's data, add that same data to either left
+            *  or right. */
             int currData = cursor.data;
             if (currData < x) {
                 if (left == null) {
@@ -24,17 +33,16 @@ public class Prob4 {
             }
             cursor = cursor.next;
         }
-
+        // If x was the smallest value, then we already have our partitioned list with right.
         if (left == null) {
             return right;
         }
-
+        // Join together left and right.
         Node n = left;
         while (n.hasNext()) {
             n = n.next;
         }
         n.next = right;
-
         return left;
     }
 

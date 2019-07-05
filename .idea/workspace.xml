@@ -2,27 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="680758eb-a9db-4729-ae38-8f6e39fd4ce9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chap3/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap3/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap3/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap3/MyStackFinite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap3/Prob2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap3/Prob3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap3/Prob4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap3/Prob5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap3/Prob6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap4/BinaryNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap4/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap4/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap4/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap4/Prob1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap4/Tree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ctci_java/Chap1/Prob1_1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ctci_java/Chap1/Prob1_2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ctci_java/Chap1/Prob1_3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ctci_java/Chap1/Prob1_4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ctci_java/Chap1/Prob1_5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ctci_java/Chap1/Prob1_6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ctci_java/Chap1/Prob1_7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ctci_java/Chap1/Prob1_8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ctci_java/Chap1/Prob1_9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ctci_java/Chap2/Prob8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ctci_java/Chap2/Prob8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap3/Prob1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap3/Prob1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap2/LinkedListTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap2/LinkedListTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap2/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap2/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap2/Prob1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap2/Prob1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap2/Prob2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap2/Prob2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap2/Prob3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap2/Prob3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap2/Prob4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap2/Prob4.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,104 +35,104 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chap3/Prob5.java">
+        <entry file="file://$PROJECT_DIR$/src/Chap2/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+            <state relative-caret-position="126">
+              <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+              <folding>
+                <element signature="e#155#156#0" expanded="true" />
+                <element signature="e#179#180#0" expanded="true" />
+                <element signature="e#400#401#0" expanded="true" />
+                <element signature="e#435#436#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chap2/LinkedListTool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="18" column="90" selection-start-line="18" selection-start-column="90" selection-end-line="18" selection-end-column="90" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chap4/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+              <folding>
+                <element signature="e#221#222#0" expanded="true" />
+                <element signature="e#243#244#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chap4/Prob1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="80" selection-start-line="6" selection-start-column="80" selection-end-line="6" selection-end-column="80" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chap2/Prob1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chap2/Prob2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chap2/Prob3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-126">
+              <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chap2/Prob4.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-265">
+              <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Chap3/Prob6.java">
+        <entry file="file://$PROJECT_DIR$/src/Chap2/Prob5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="e#629#630#0" expanded="true" />
-                <element signature="e#654#655#0" expanded="true" />
-                <element signature="e#694#695#0" expanded="true" />
-                <element signature="e#727#728#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1980">
+              <caret line="110" column="8" lean-forward="true" selection-start-line="110" selection-start-column="8" selection-end-line="116" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chap3/MyStack.java">
+        <entry file="file://$PROJECT_DIR$/src/Chap3/Prob1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" selection-start-line="4" selection-end-line="39" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chap3/Animal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-              <folding>
-                <element signature="e#137#138#0" expanded="true" />
-                <element signature="e#169#170#0" expanded="true" />
-                <element signature="e#218#219#0" expanded="true" />
-                <element signature="e#253#254#0" expanded="true" />
-                <element signature="e#294#295#0" expanded="true" />
-                <element signature="e#330#331#0" expanded="true" />
-                <element signature="e#386#387#0" expanded="true" />
-                <element signature="e#442#443#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chap3/Dog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-              <folding>
-                <element signature="e#60#61#0" expanded="true" />
-                <element signature="e#92#93#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chap3/Cat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-              <folding>
-                <element signature="e#102#103#0" expanded="true" />
-                <element signature="e#134#135#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chap3/Prob4.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="53" column="4" lean-forward="true" selection-start-line="53" selection-start-column="4" selection-end-line="58" selection-end-column="5" />
-              <folding>
-                <element signature="e#168#169#0" expanded="true" />
-                <element signature="e#201#202#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chap3/Prob3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="61" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-1381">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -171,13 +163,7 @@
         <option value="$PROJECT_DIR$/src/Chap1/Prob1_2.java" />
         <option value="$PROJECT_DIR$/src/Chap1/Prob1_4.java" />
         <option value="$PROJECT_DIR$/src/Chap1/Prob1_5.java" />
-        <option value="$PROJECT_DIR$/src/Chap2/Node.java" />
         <option value="$PROJECT_DIR$/src/Chap2/PrinterTool.java" />
-        <option value="$PROJECT_DIR$/src/Chap2/LinkedListTool.java" />
-        <option value="$PROJECT_DIR$/src/Chap2/Prob1.java" />
-        <option value="$PROJECT_DIR$/src/Chap2/Prob2.java" />
-        <option value="$PROJECT_DIR$/src/Chap2/Prob3.java" />
-        <option value="$PROJECT_DIR$/src/Chap2/Prob4.java" />
         <option value="$PROJECT_DIR$/src/Chap2/Prob5.java" />
         <option value="$PROJECT_DIR$/src/Chap2/Prob6.java" />
         <option value="$PROJECT_DIR$/src/Chap2/Prob7.java" />
@@ -186,7 +172,6 @@
         <option value="$PROJECT_DIR$/src/Chap3/MyQueue.java" />
         <option value="$PROJECT_DIR$/src/Chap1/Prob2.java" />
         <option value="$PROJECT_DIR$/src/Chap3/Prob2.java" />
-        <option value="$PROJECT_DIR$/src/Chap3/Prob1.java" />
         <option value="$PROJECT_DIR$/src/Chap3/MyStackFinite.java" />
         <option value="$PROJECT_DIR$/src/Chap3/Prob3.java" />
         <option value="$PROJECT_DIR$/src/Chap3/Prob4.java" />
@@ -195,6 +180,19 @@
         <option value="$PROJECT_DIR$/src/Chap3/Cat.java" />
         <option value="$PROJECT_DIR$/src/Chap3/Dog.java" />
         <option value="$PROJECT_DIR$/src/Chap3/Prob6.java" />
+        <option value="$PROJECT_DIR$/src/Chap4/Tree.java" />
+        <option value="$PROJECT_DIR$/src/Chap4/BinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/Chap4/BinaryNode.java" />
+        <option value="$PROJECT_DIR$/src/Chap4/Node.java" />
+        <option value="$PROJECT_DIR$/src/Chap4/Graph.java" />
+        <option value="$PROJECT_DIR$/src/Chap4/Prob1.java" />
+        <option value="$PROJECT_DIR$/src/Chap3/Prob1.java" />
+        <option value="$PROJECT_DIR$/src/Chap2/LinkedListTool.java" />
+        <option value="$PROJECT_DIR$/src/Chap2/Node.java" />
+        <option value="$PROJECT_DIR$/src/Chap2/Prob1.java" />
+        <option value="$PROJECT_DIR$/src/Chap2/Prob2.java" />
+        <option value="$PROJECT_DIR$/src/Chap2/Prob3.java" />
+        <option value="$PROJECT_DIR$/src/Chap2/Prob4.java" />
       </list>
     </option>
   </component>
@@ -222,6 +220,24 @@
               <item name="ctci_java" type="b2602c69:ProjectViewProjectNode" />
               <item name="ctci_java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ctci_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ctci_java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Chap2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ctci_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ctci_java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Chap3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ctci_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ctci_java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Chap4" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -253,20 +269,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Prob5">
+  <component name="RunManager" selected="Application.Prob1 (1)">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Prob1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chap3.Prob1" />
+    <configuration name="Prob1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chap4.Prob1" />
       <module name="ctci_java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chap3.*" />
+          <option name="PATTERN" value="Chap4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -274,8 +290,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Prob2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chap3.Prob2" />
+    <configuration name="Prob1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chap3.Prob1" />
       <module name="ctci_java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -363,11 +379,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Prob1 (1)" />
         <item itemvalue="Application.Prob5" />
         <item itemvalue="Application.Prob4" />
         <item itemvalue="Application.Prob3" />
         <item itemvalue="Application.Prob1" />
-        <item itemvalue="Application.Prob2" />
       </list>
     </recent_temporary>
   </component>
@@ -386,6 +402,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27919462" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -529,41 +546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chap2/Prob1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="37" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chap2/Prob2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chap2/Prob3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="16" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chap2/Prob4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="57" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chap2/Prob5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-409">
-          <caret line="110" column="8" lean-forward="true" selection-start-line="110" selection-start-column="8" selection-end-line="116" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Chap2/Prob6.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
@@ -582,24 +564,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="792">
           <caret line="44" column="51" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chap2/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-          <folding>
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chap2/LinkedListTool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -629,13 +593,6 @@
             <element signature="e#1072#1073#0" expanded="true" />
             <element signature="e#1110#1111#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chap3/Prob1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="76" column="4" lean-forward="true" selection-start-line="76" selection-start-column="4" selection-end-line="85" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -704,13 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chap3/MyStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" selection-start-line="4" selection-end-line="39" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Chap3/Cat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -724,12 +674,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Chap3/Dog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        <state>
+          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
           <folding>
             <element signature="e#60#61#0" expanded="true" />
             <element signature="e#92#93#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chap4/BinaryNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chap4/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chap3/MyStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" selection-start-line="4" selection-end-line="39" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chap4/BinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13">
+          <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -743,6 +721,100 @@
             <element signature="e#694#695#0" expanded="true" />
             <element signature="e#727#728#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chap4/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          <folding>
+            <element signature="e#124#125#0" expanded="true" />
+            <element signature="e#146#147#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chap4/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding>
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chap3/Prob1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1381">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chap2/LinkedListTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="90" selection-start-line="18" selection-start-column="90" selection-end-line="18" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chap2/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chap4/Prob1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="80" selection-start-line="6" selection-start-column="80" selection-end-line="6" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chap2/Prob1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chap2/Prob2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chap2/Prob3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-126">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chap2/Prob4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-265">
+          <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chap2/Prob5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1980">
+          <caret line="110" column="8" lean-forward="true" selection-start-line="110" selection-start-column="8" selection-end-line="116" selection-end-column="54" />
         </state>
       </provider>
     </entry>
