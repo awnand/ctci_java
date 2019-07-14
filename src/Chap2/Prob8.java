@@ -2,9 +2,14 @@ package Chap2;
 
 import java.util.HashSet;
 
+/* Contains methods which serve the purpose of detecting loops in a circular Linked List. A circular
+*  Linked List is a corrupt Linked List in which a Node's next pointer points to an earlier node, as
+*  to make a loop in the Linked List. */
 public class Prob8 {
 
-    // This method takes O(N) space and O(N) time, where N is the size of the Linked List.
+    /* This method takes O(N) space and O(N) time, where N is the size of the Linked List.  Simply
+    *  build a Set of Nodes that have been seen and traverse the Linked List until you run into one
+    *  that has seen before. */
     public static Node findBeginning(Node head) {
         HashSet<Node> seenNodes = new HashSet<>();
         while (head != null) {
@@ -17,7 +22,7 @@ public class Prob8 {
         return null;
     }
 
-    // This method takes O(1) space and O(N) time, where N is the size of the linked list.
+    /* This method takes O(1) space and O(N) time, where N is the size of the Linked List. */
     public static Node findBeginning2(Node head) {
         Node slowPointer = head;
         Node fastPointer = head;

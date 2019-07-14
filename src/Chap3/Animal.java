@@ -1,5 +1,7 @@
 package Chap3;
 
+/* A class representing an animal adopted at a center. The order of an Animal is the number representing
+*  when they entered the center. */
 public abstract class Animal {
     private int order;
     String name;

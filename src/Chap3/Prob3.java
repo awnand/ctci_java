@@ -3,6 +3,10 @@ package Chap3;
 import java.util.ArrayList;
 import java.util.EmptyStackException;
 
+/* This class represents a Set of Stacks.  We can think of this like a stack of plates.  If the
+*  stack gets too high, it might topple.  Therefore, in real life, we would likely start a new
+*  stack when the previous stack exceeds some threshold.  To do this, we simply use an ArrayList
+*  of MyStackFinite, where a new one is added when the last one gets full. */
 public class Prob3 {
     private ArrayList<MyStackFinite<Integer>> stacks = new ArrayList<>();
     private int lastStack;

@@ -2,6 +2,7 @@ package Chap3;
 
 import java.util.LinkedList;
 
+
 public class Prob6 {
     LinkedList<Dog> dogs = new LinkedList<>();
     LinkedList<Cat> cats = new LinkedList<>();

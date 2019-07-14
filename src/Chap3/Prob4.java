@@ -2,6 +2,11 @@ package Chap3;
 
 import java.util.NoSuchElementException;
 
+/* This class implements a MyQueue class which implements a queue using two Stacks. To do this,
+*  whenever we add an item, we push to the newest stack.  Whenever we remove, we pop everything
+*  from newest and push it to oldest so the items are reversed and therefore in correct order for
+*  popping from oldest.  We then return a popped item from oldest.  If when we run the remove
+*  method, oldest is not empty, we can simply pop from oldest and return. */
 public class Prob4 {
     MyStack<Integer> oldest;
     MyStack<Integer> newest;

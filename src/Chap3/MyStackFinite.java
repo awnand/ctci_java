@@ -2,6 +2,7 @@ package Chap3;
 
 import java.util.EmptyStackException;
 
+// Similar to MyStack except there is a capacity that cannot be exceeded.
 public class MyStackFinite<T> {
     private int size;
     private int capacity;

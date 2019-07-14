@@ -3,6 +3,7 @@ package Chap3;
 
 import java.util.EmptyStackException;
 
+// This class represents a Stack that also keeps track of the minimum element.
 public class Prob2 {
     private static class StackNode<T> {
         private T data;
@@ -13,7 +14,9 @@ public class Prob2 {
         }
     }
 
+
     private StackNode<Integer> top;
+    // Used to keep track of minimum elements that are passed through the Stack,
     private StackNode<Integer> min;
 
     public int pop() {

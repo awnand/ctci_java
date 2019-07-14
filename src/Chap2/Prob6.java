@@ -1,7 +1,12 @@
 package Chap2;
 
+// Contains methods which serve the purpose of checking if a Linked List is a palindrome.
 public class Prob6 {
 
+    /* This method takes O(1) space and O(N) time.  First we call countItems, which takes O(N) time
+    *  to count the number of elements within the Linked List.  Then it calls xorAll on the Linked
+    *  List and checks that the resulting value is the correct one for the parity of the number of
+    *  elements within the Linked List.  xorAll also takes O(N) time. */
     public static boolean isPalindrome(Node head) {
         int numItems = countItems(head);
         if (numItems % 2 == 0) {
@@ -20,7 +25,8 @@ public class Prob6 {
         return false;
     }
 
-    public static int xorAll(Node head) {
+    // Performs an XOR operation on all of the elements of a Linked List.
+    private static int xorAll(Node head) {
         int xor = head.data;
         head = head.next;
         while (head != null) {
@@ -30,7 +36,8 @@ public class Prob6 {
         return xor;
     }
 
-    public static int getMiddleItem(Node head, int numItems) {
+    // Returns the data of the middle element of the Linked List.
+    private static int getMiddleItem(Node head, int numItems) {
         int i = 1;
         while (i != (numItems/2) + 1) {
             head = head.next;
@@ -39,6 +46,7 @@ public class Prob6 {
         return head.data;
     }
 
+    // Counts the number of elements within a Linked List.
     private static int countItems(Node head) {
         if (head == null) {
             return 0;
@@ -51,6 +59,7 @@ public class Prob6 {
         return numItems;
     }
 
+    // Returns a new Linked List that is the reverse of the input Linked List.
     private static Node reverse(Node n) {
         Node reversed = null;
         while (n != null) {

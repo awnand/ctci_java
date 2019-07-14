@@ -1,7 +1,14 @@
 package Chap2;
 
+/* Contains methods which serve the purpose of adding two numbers represented by a Linked List
+*  where each node contains a single digit.  The digits are stored starting from least significant
+*  to most significant for addBackward and the other way around for addForward. */
 public class Prob5 {
 
+    /* This method takes O(N) space because we create a new Linked List and O(N) time where N is
+    *  the length of the longer of l1 and l2.  Since we are adding from the least significant digit
+    *  to the most significant digit, we can add how we intuitively do it: Keep adding the current
+    *  digits plus the carry if any, carrying over to the next digit if necessary.*/
     public static Node addBackward(Node l1, Node l2, int carry) {
         if (l1 == null && l1 == null) {
             return carry == 0 ? null : new Node(carry);
@@ -18,6 +25,10 @@ public class Prob5 {
     }
 
 
+    /* This method takes O(N) space because we create a new Linked List and O(N^2) time where N is
+    *  the length of the longer of l1 and l2.  We are not adding from the most significant digit to
+    *  the least significant digit, so every time we reach a digit that needs a carry, we need to
+    *  go back to properly carry. */
     public static Node addForward(Node l1, Node l2) {
         int numDigits1 = countDigits(l1);
         int numDigits2 = countDigits(l2);

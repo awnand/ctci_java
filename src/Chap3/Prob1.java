@@ -2,6 +2,8 @@ package Chap3;
 
 import java.util.EmptyStackException;
 
+/* This class implements a Three Stacks using a single array.  We give each Stack a third of the array
+*  and whenever one Stack runs out of space, we make the array bigger. */
 public class Prob1 {
     private int[] arr;
     private int[] indices = new int[3];
