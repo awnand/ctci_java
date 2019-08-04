@@ -31,6 +31,14 @@ public class Prob2 {
     }
 
 
+    public static int[] createSortedArray(int numElements) {
+        int[] sorted = new int[numElements];
+        for (int i = 1; i <= numElements; i++) {
+            sorted[i - 1] = i;
+        }
+        return sorted;
+    }
+
     private static void createBSTAndPrint(int[] sorted) {
         System.out.println("Elements of sorted array:");
         for (int i = 0; i < sorted.length; i++) {
@@ -48,15 +56,9 @@ public class Prob2 {
     }
 
     public static void main(String[] args) {
-        int[] odd = new int[9];
-        for (int i = 1; i <= odd.length; i++) {
-            odd[i - 1] = i;
-        }
+        int[] odd = createSortedArray(9);
 
-        int[] even = new int[10];
-        for (int i = 1; i <= even.length; i++) {
-            even[i - 1] = i;
-        }
+        int[] even = createSortedArray(10);
 
         // Expected 1 2 3 4 5 6 7 8 9
         createBSTAndPrint(odd);
