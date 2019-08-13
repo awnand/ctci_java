@@ -1,7 +1,17 @@
-Question:
+QUESTION
+
 You have 20 bottles of pills.  19 bottles have 1.0 gram pills, but one has pills of weight 1.1 grams. Given a scale that provides an exact measurement, how would you find the heavy bottle?  You can only use the scale once.
 
 ----------------------------------------------------------------------------------------------------
 
-Answer:
-These types of problems rely on a careful attention to detail of the premise and question.  We can usually leverage a
+SOLUTION
+
+These types of problems rely on a careful attention to detail of the premise and question.  We can usually leverage a fact given to us in order to solve the problem.  The special fact that we can leverage here, which may seem so obvious that it may be overlooked, is that our pill bottles each contain multiple pills.  Therefore we can hatch the following scheme: assign each bottle a number from 1-20 and place that many pills from that bottle onto the scale.  For example, for Pill Bottle 5, place 5 pills on the scale.  Since only one bottle has the 1.1 pills, the sum of all the pills weights will be unique based on the bottle number that contains the heavier pills.  Below is a list of the different sums of weights based upon which bottle has the 1.1 gram pills.
+
+Total weight if pill bottle 1 has heavier pills: 210.1
+Total weight if pill bottle 2 has heavier pills: 210.2
+Total weight if pill bottle 3 has heavier pills: 210.3
+...
+Total weight if pill bottle 18 has heavier pills: 211.8
+Total weight if pill bottle 19 has heavier pills: 211.9
+Total weight if pill bottle 20 has heavier pills: 212.0
