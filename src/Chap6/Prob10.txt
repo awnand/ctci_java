@@ -1,0 +1,16 @@
+QUESTION
+
+You have 1000 bottles of soda, and exactly one is poisoned.  You have 10 test strips which can be used to detect poison.  A single drop of poison will turn the test strip positive permanently.  You can put any number of drops on a test strip at once and you can reuse a test strip as many times as you'd like (as long as the results are negative).  However, you can only run tests once per day and it takes seven days to return a result.  How would you figure out the poisoned bottle in as few days as possible?
+
+----------------------------------------------------------------------------------------------------
+
+SOLUTION
+
+Initial approach: We can just divide the 1000 sodas amongst the 10 strips evenly for the first day, wait seven days, and then hone in on the 100 sodas pertaining to the one positive strip and repeat the process until we get one soda.  The day breakdown would be as follows:
+Day 1: 10 strips, 100 sodas each
+Day 7: 9 strips, 11 sodas each. The one extra is our poison if all strips turn up negative.
+Day 14: 8 strips, 2 sodas each, 1 strip with just 1.  We'll only use 6 strips here total.
+Day 21: 7 strips, just test 1 of the sodas that we have left.
+Day 28: If the strip is positive, that soda is the poison.  If it is negative, the other soda is the poison.
+
+Optimized approach:  We have 1000 sodas and 10 strips.  These strips act like boolean indicators.  Using these strips, we can use binary to come up with the poison soda can in just 7 days.  Assign each soda can a number value from 1 through 1000.  Assign the strips bit digits from 0 to 9.  Based on the binary representation of each can, on the first day place the soda on the strips that correspond with the binary.  The strips that turn out positive on day 7 will be the binary representation of the can number that is poison.

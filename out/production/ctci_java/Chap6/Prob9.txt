@@ -1,0 +1,17 @@
+QUESTION
+
+There are 100 closed lockers in a hallway.  A man begins by opening all 100 lockers.  Next, he closes every second locker.  Then, on his third pass, he toggles every third locker (closes it if it is open or opens if it is closed).  This process continues for 100 passes, such that on each pass i, the man toggles every ith locker.  After his 100th pass in the hallway, in which he toggles only locker #100, how many lockers are open?
+
+----------------------------------------------------------------------------------------------------
+
+SOLUTION
+
+Opens all lockers
+closes every second locker
+toggles every third locker
+
+11111111111111111111 : 20 open
+10101010101010101010 : 10 open
+10001110001110001100 : 9 open
+10011111001010011101 : 13 open
+

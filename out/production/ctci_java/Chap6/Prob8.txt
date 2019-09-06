@@ -1,0 +1,15 @@
+QUESTION
+
+There is a building of 100 floors.  If an egg drops from the Nth floor or above, it will break.  If it's dropped from any floor below, it will not break.  You're given two eggs.  Find N, while minimizing the number of drops for the worst case.
+
+----------------------------------------------------------------------------------------------------
+
+SOLUTION
+
+The key here is to notice that no matter where we drop Egg 1, we have to do a linear search from that point with Egg 2 to find N.  Let D be the number of drops needed to find N.  If we want to minimize D, we could initally try skipping every 10 floors.  So we try dropping Egg 1 at floor 10, then floor 20, then floor 30, and so on.  At a certain point we reach a floor where Egg 1 will crack.  Let us say that that floor is floor 50.  We then check floors 41 through 50 linearly to find N.  In the best case scenario, there are 2 drops: 1 when we drop on floor 10 and 1 when we find that floor 1 is N.  In the worst case scenario there are 19 drops: 10 drops from floor 10 to floor 100, and then an additional 9 drops to scan from floor 91 to 100.
+
+Let's try to bring in the worst case and the best case so that they are closer together.  Notice that for every set of 10 floors, we jump, that's an additional drop that we add to the total count.  No matter which multiple of 10 we stop at, we always need to scan an additional of at most 9 more.  We can balance this out by incrementally increasing out skip to adjust the number of drops.  The levels we drop egg 1 at would be as follows:
+
+16, 31, 45, 58, 70, 81, 91, 100
+
+Notice that we start with a gap of 16, then 15, then 14, and so on.  This means as we increase the number of drops with Egg 1, the necessary amount of drops with Egg 2 drop by the same amount.  Furthermore, our worst case scenario is now D = 17.

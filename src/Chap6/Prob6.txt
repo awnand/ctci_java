@@ -1,0 +1,19 @@
+QUESTION
+
+A bunch of people are living on an island, when a visitor comes with a strange order: all blue-eyed people must leave the island as soon as possible.  There will be a flight out at 8:00PM every evening.  Each person can see everyone else's eye color, but they do not know their own (nor is anyone allowed to tell them).  Additionally, they do not know how many people have blue eyes, although they do know that at least one person does.  How many days will it take the blue-eyed people to leave?
+
+----------------------------------------------------------------------------------------------------
+
+SOLUTION
+
+Let's apply the Base Case and Build approach. The variable c will represent the number of blue eyed people.
+
+c = 1:
+Given that everyone is intelligent, if c = 1 and they know that at least one person has blue eyes, the blue eyed person will see that everyone else has brown eyes and deduce that they are the blue eyed person.  They will leave after that first night.
+
+c = 2:
+The two blue eyed people will see each other, at first not knowing that they themselves are blue eyed.  They will then notice that the other blue eyed person did not leave on the first night, meaning that they do not think they are the blue eyed person.  Seeing that the other people are not blue eyed other than themselves and the one other blue eyed person they spotted, they will both leave on the second night after deducing that they both must have blue eyes.
+
+c > 2:
+From here you can see that the rest of the values of c go in a similar fashion. The blue eyed people will notice each other, and after each day they will further notice that the others are not leaving, meaning that they must think they are not blue eyed.  It will take exactly c nights for all of the blue-eyed men to leave.
+

@@ -1,0 +1,11 @@
+QUESTION
+
+In the new post-apocalyptic world, the world queen is desperately concerned about the birth rate.  Therefore, she decrees that all families should ensure that they have one girl or else they face massive fines.  If all families abide by this policy--that is, they have continue to have children until they have one girl, at which point they immediately stop--what will the gender ratio of the new generation be?  (Assume that the odds of someone having a boy or a girl on any given pregnancy is equal.)  Solve this out logically and then write a computer simulation for it.
+
+----------------------------------------------------------------------------------------------------
+
+SOLUTION
+
+At first, it may seem like the policy will heavily favor girls since all families must continue to have babies until they have a female.  However open further mathematical inspection, shown later, we actually find that the ratio would be about even.  This makes sense since the probability of having a girl or a boy is the exact same.  So the expected amount of attempts for a child is 2.
+
+Now let's show this with math.  We can represent a string of births by gender with B for boy and G for girl like so: "BBBBG", where the example shows 4 boys birthed before 1 girl.  If we some the sequence of G, BG, BBG, ... to infinity multiplied by the number of boys to get the ratio to get the ratio we get the sum of i to infinity of i divided by 2^i.  Testing this up to i = 6, the ratio is 120/128, almost 1.  In fact, this sum approaches 1 as i approaches infinity.
