@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="680758eb-a9db-4729-ae38-8f6e39fd4ce9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ctci_java/Chap5/Prob8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ctci_java/Chap5/Prob8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ctci_java/META-INF/ctci_java.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap6/Prob2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap6/Prob2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap6/Prob3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap6/Prob3.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
